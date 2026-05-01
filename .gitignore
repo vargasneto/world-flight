@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+dist/
+
+.env
+.env.local
+.env.*.local
+
+*.log
+.dev-server*.log
+tsconfig.tsbuildinfo
+bun.lock
