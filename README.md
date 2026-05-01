@@ -13,7 +13,7 @@ O projeto roda com dados mock por padrao, entao da para desenvolver sem configur
 - MapLibre GL
 - Turf.js
 - AeroDataBox via RapidAPI
-- Bun
+- npm
 
 ## Funcionalidades
 
@@ -29,7 +29,7 @@ O projeto roda com dados mock por padrao, entao da para desenvolver sem configur
 Instale as dependencias:
 
 ```bash
-bun install
+npm install
 ```
 
 Crie o arquivo `.env.local` a partir do exemplo:
@@ -49,7 +49,7 @@ RAPIDAPI_HOST=aerodatabox.p.rapidapi.com
 Inicie o servidor de desenvolvimento:
 
 ```bash
-bun run dev
+npm run dev
 ```
 
 Acesse:
@@ -73,8 +73,8 @@ Depois reinicie o servidor.
 ## Scripts
 
 ```bash
-bun run dev
-bun run lint
-bun run typecheck
-bun run build
+npm run dev
+npm run lint
+npm run typecheck
+npm run build
 ```
