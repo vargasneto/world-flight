@@ -1,0 +1,38 @@
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f6f4ef;
+  color: #171717;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.maplibregl-ctrl-bottom-left,
+.maplibregl-ctrl-bottom-right {
+  display: none;
+}
+
+.plane-marker {
+  filter: drop-shadow(0 8px 14px rgba(15, 23, 42, 0.35));
+}
